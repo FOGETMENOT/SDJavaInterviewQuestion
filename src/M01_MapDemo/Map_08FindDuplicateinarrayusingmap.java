@@ -1,5 +1,6 @@
 package M01_MapDemo;
 
+<<<<<<< HEAD
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,4 +18,8 @@ public static void main(String[] args) {
 	}
 	}
 }
+=======
+public class Map_08FindDuplicateinarrayusingmap {
+
+>>>>>>> Qapro
 }
