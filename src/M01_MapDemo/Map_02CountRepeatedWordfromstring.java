@@ -1,6 +1,7 @@
 package M01_MapDemo;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Map_02CountRepeatedWordfromstring {
 	
@@ -12,8 +13,8 @@ public class Map_02CountRepeatedWordfromstring {
 		{
 		if(charCountMap.containsKey(s))
 		{ 
-			charCountMap.put(s,charCountMap.get(s)+1);
 			
+			charCountMap.put(s,charCountMap.get(s)+1);
 			}
 		
 		else{ 
@@ -23,8 +24,15 @@ public class Map_02CountRepeatedWordfromstring {
 		}
 		System.out.println("Count of Characters in a given string : " +
 		charCountMap);
+		
+	
+	
+	// print result view print result evry time belore writing program
+		for(Map.Entry<String,Integer> entry:charCountMap.entrySet())
+		{
+			System.out.println(entry.getKey()+"->"+entry.getValue());
 		}
-
+}
 }
 	
 	
